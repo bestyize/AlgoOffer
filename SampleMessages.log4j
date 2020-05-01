@@ -1,0 +1,12 @@
+<log4j:event logger="root" timestamp="1579698265937" level="INFO" thread="main">
+<log4j:message><![CDATA[测试]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1579698265939" level="DEBUG" thread="main">
+<log4j:message><![CDATA[test()]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="root" timestamp="1579698265939" level="FATAL" thread="main">
+<log4j:message><![CDATA[fetal]]></log4j:message>
+</log4j:event>
+
