@@ -31,7 +31,6 @@ public class L328 {
 
 
     public ListNode oddEvenList(ListNode head) {
-
         ListNode odd=head;
         ListNode even=head.next;
         ListNode evenHead=even;
