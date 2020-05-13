@@ -1,6 +1,7 @@
 package com.yize.leetcode;
 
 import com.yize.datastructure.TreeNode;
+import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -32,9 +33,43 @@ import java.util.Queue;
  */
 public class L102 {
 
-
+    @Test
+    public void test(){
+        TreeNode root=new TreeNode(1);
+        TreeNode left=new TreeNode(2);
+        root.left=left;
+        List<List<Integer>> lists=levelOrder(root);
+        System.out.println(lists);
+    }
 
     public List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> lists=new ArrayList<>();
+        if(root==null){
+            return lists;
+        }
+        LinkedList<TreeNode> queue=new LinkedList<>();
+        queue.offerFirst(root);
+        while(!queue.isEmpty()){
+            int size=queue.size();
+            List<Integer> list=new ArrayList<>();
+            for(int i=0;i<size;i++){
+                TreeNode curr=queue.pollLast();
+                list.add(curr.val);
+                if(curr.left!=null){
+                    queue.offerFirst(curr.left);
+                }
+                if(curr.right!=null){
+                    queue.offerFirst(curr.right);
+                }
+            }
+            lists.add(list);
+        }
+        return lists;
+    }
+
+
+
+    public List<List<Integer>> levelOrder1(TreeNode root) {
         List<List<Integer>> lists=new ArrayList<>();
         if(root==null){
             return lists;
