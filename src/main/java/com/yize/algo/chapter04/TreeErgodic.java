@@ -1,7 +1,7 @@
 package com.yize.algo.chapter04;
 
 import com.yize.datastructure.TreeNode;
-import org.apache.log4j.Logger;
+
 import org.junit.Test;
 
 
