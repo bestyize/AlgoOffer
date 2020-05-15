@@ -43,6 +43,34 @@ public class L6 {
         String ss=new L6().method1("LEETCODEISHIRING",4);
         System.out.println(ss);
     }
+
+    public String convert(String s, int numRows) {
+        if(s==null||s.length()==0||numRows<=1||s.length()<numRows){
+            return s;
+        }
+        StringBuilder[] sbs=new StringBuilder[numRows];
+        for(int i=0;i<numRows;i++){
+            sbs[i]=new StringBuilder();
+        }
+        int layer=0;
+        boolean turn=false;
+        for(int i=0;i<s.length();i++){
+            if(!turn){
+                sbs[layer++].append(s.charAt(i));
+            }else{
+                sbs[layer--].append(s.charAt(i));
+            }
+            if(layer==-1||layer==numRows){
+                layer=layer==-1?1:layer-2;
+                turn=!turn;
+            }
+        }
+        StringBuilder result=new StringBuilder();
+        for(StringBuilder sb:sbs){
+            result.append(sb.toString());
+        }
+        return result.toString();
+    }
     /**
      * 假设有n行
      * 第一层2*(n-1)*i,i=0,1,2,...
