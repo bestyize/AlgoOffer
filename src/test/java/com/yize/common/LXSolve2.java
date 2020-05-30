@@ -34,7 +34,8 @@ public class LXSolve2 {
         while (maxHeap.isEmpty()==false){
             topMWealth+=maxHeap.poll();
         }
-        System.out.println((topMWealth+0.0)/totalWealth);
+        float percent=(float)((topMWealth+0.0)/totalWealth);
+        System.out.println(String.format("%.6f",percent));
 
     }
 }
