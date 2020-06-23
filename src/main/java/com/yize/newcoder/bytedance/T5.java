@@ -5,7 +5,7 @@ import org.junit.Test;
 public class T5 {
     @Test
     public void test(){
-        int[] nums={3,5,1,6,7};
+        int[] nums={3,5,1,6,7,8};
         if(nums.length%2==0){
             int k1=(nums.length+1)>>1;
             quickSelect(nums,k1);
