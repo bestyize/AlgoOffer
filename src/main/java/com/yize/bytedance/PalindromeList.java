@@ -3,6 +3,8 @@ package com.yize.bytedance;
 import com.yize.datastructure.ListNode;
 import org.junit.Test;
 
+import java.util.Stack;
+
 /**
  * ## 2、给一个链表，判断链表元素是否回文，要求空间复杂度O(1)
  *
@@ -15,6 +17,11 @@ public class PalindromeList {
         System.out.println(isPalindrome(head));
     }
 
+    /**
+     * 解题思路：在找中点的时候对前半部分进行翻转,时空复杂度为n和1
+     * @param head
+     * @return
+     */
     public boolean isPalindrome(ListNode head){
         if(head==null||head.next==null){
             return true;
@@ -47,6 +54,29 @@ public class PalindromeList {
 
 
     }
+
+    /**
+     * 用栈性质实现
+     * @param head
+     * @return
+     */
+    public boolean isPalindrome2(ListNode head){
+        Stack<ListNode> stack=new Stack<>();
+        ListNode curr=head;
+        while (curr!=null){
+            stack.push(curr);
+            curr=curr.next;
+        }
+        while (head!=null){
+            if(head.val!=stack.pop().val){
+                return false;
+            }
+            head=head.next;
+        }
+        return true;
+    }
+
+
 
     private ListNode reverseList(ListNode head){
         if(head==null||head.next==null){
