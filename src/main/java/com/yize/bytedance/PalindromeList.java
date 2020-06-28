@@ -51,8 +51,6 @@ public class PalindromeList {
             slow=slow.next;
         }
         return true;
-
-
     }
 
     /**
