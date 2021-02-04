@@ -36,6 +36,7 @@ public class Chapter07 {
     private void test(){
         Character c=new Character('2');
         ClassLoader loader=this.getClass().getClassLoader();
+        //Class.forName("com.yize.leetcode.L316");
         System.out.println("Test");
     }
 }
