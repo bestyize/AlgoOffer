@@ -1,6 +1,7 @@
 package thewind.bytedance;
 
-import xyz.thewind.common.TreeNode;
+
+import thewind.common.TreeNode;
 
 public class T29IsBalanceTree {
     private boolean isBalance=false;

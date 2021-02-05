@@ -1,7 +1,8 @@
 package thewind.leetcode.p2;
 
 import org.junit.Test;
-import xyz.thewind.util.PrintHelper;
+import thewind.util.PrintHelper;
+
 
 /**
  * 80. 删除排序数组中的重复项 II

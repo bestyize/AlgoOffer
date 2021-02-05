@@ -1,7 +1,8 @@
 package thewind.leetcode.p1;
 
 import org.junit.Test;
-import xyz.thewind.common.ListNode;
+import thewind.common.ListNode;
+
 
 /**
  * 61. 旋转链表
@@ -28,7 +29,7 @@ public class T61RotateList {
 
     @Test
     public void test(){
-        ListNode head=ListNode.buildList(new int[]{1,2,3,4,5});
+        ListNode head= ListNode.buildList(new int[]{1,2,3,4,5});
         rotateRight(head,22).print();
     }
 

@@ -1,7 +1,7 @@
 package thewind.leetcode.p2;
 
 import org.junit.Test;
-import xyz.thewind.util.PrintHelper;
+import thewind.util.PrintHelper;
 
 /**
  * 75. 颜色分类

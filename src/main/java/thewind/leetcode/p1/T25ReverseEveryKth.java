@@ -1,7 +1,8 @@
 package thewind.leetcode.p1;
 
 import org.junit.Test;
-import xyz.thewind.common.ListNode;
+import thewind.common.ListNode;
+
 
 /**
  * 25. K 个一组翻转链表

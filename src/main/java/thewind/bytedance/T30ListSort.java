@@ -1,6 +1,7 @@
 package thewind.bytedance;
 
-import xyz.thewind.common.ListNode;
+
+import thewind.common.ListNode;
 
 public class T30ListSort {
     public ListNode sortList(ListNode head){

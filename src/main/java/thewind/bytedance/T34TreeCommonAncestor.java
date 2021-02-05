@@ -1,6 +1,7 @@
 package thewind.bytedance;
 
-import xyz.thewind.common.TreeNode;
+
+import thewind.common.TreeNode;
 
 /**
  * 236. 二叉树的最近公共祖先

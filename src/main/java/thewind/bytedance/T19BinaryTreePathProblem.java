@@ -1,6 +1,7 @@
 package thewind.bytedance;
 
-import xyz.thewind.common.TreeNode;
+
+import thewind.common.TreeNode;
 
 /**
  * 二叉树路径问题

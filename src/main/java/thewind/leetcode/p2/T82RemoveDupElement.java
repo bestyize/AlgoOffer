@@ -1,7 +1,8 @@
 package thewind.leetcode.p2;
 
 import org.junit.Test;
-import xyz.thewind.common.ListNode;
+import thewind.common.ListNode;
+
 
 /**
  * 82. 删除排序链表中的重复元素 II

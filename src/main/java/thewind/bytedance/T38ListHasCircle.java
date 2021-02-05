@@ -1,6 +1,6 @@
 package thewind.bytedance;
 
-import xyz.thewind.common.ListNode;
+import thewind.common.ListNode;
 
 /**
  *

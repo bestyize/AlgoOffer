@@ -1,6 +1,5 @@
 package thewind.leetcode.p1;
-
-import xyz.thewind.common.ListNode;
+import thewind.common.ListNode;
 
 import java.util.PriorityQueue;
 

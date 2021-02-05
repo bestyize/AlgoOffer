@@ -1,6 +1,7 @@
 package thewind.leetcode.p2;
 
-import xyz.thewind.common.TreeNode;
+
+import thewind.common.TreeNode;
 
 /**
  * 111. 二叉树的最小深度

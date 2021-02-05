@@ -1,7 +1,8 @@
 package thewind.leetcode.p1;
 
 import org.junit.Test;
-import xyz.thewind.common.ListNode;
+import thewind.common.ListNode;
+
 
 /**
  * 24. 两两交换链表中的节点

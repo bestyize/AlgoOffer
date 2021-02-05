@@ -1,7 +1,8 @@
 package thewind.leetcode.p1;
 
 import org.junit.Test;
-import xyz.thewind.util.PrintHelper;
+import thewind.util.PrintHelper;
+
 
 public class T26DeleteDupItem {
     @Test

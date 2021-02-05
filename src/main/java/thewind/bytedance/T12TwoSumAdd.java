@@ -1,7 +1,8 @@
 package thewind.bytedance;
 
 import org.junit.Test;
-import xyz.thewind.common.ListNode;
+import thewind.common.ListNode;
+
 
 import java.util.Stack;
 

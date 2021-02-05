@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/src/main/java/com/yize/network/socket/Server.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/yize/newcoder/bytedance/T8.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/thewind/note/DeadLock.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/test/java/com/yize/offer/CS.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/test/java/com/yize/offer/ObserverDemo.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

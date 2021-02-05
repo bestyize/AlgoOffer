@@ -1,6 +1,7 @@
 package thewind.bytedance;
 
-import xyz.thewind.common.TreeNode;
+
+import thewind.common.TreeNode;
 
 /**
  * 101. 对称二叉树

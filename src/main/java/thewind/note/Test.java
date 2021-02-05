@@ -3,7 +3,17 @@ package thewind.note;
 public class Test {
     @org.junit.Test
     public void test(){
-        Object obj=new Object();
-        System.out.println(obj.hashCode());
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println(this.getClass().getName());
+            }
+        }).start();
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println(this.getClass().getName());
+            }
+        }).start();
     }
 }

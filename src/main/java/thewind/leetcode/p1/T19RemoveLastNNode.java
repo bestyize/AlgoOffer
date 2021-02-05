@@ -1,7 +1,8 @@
 package thewind.leetcode.p1;
 
 import org.junit.Test;
-import xyz.thewind.common.ListNode;
+import thewind.common.ListNode;
+
 
 public class T19RemoveLastNNode {
 

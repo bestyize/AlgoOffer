@@ -1,7 +1,8 @@
 package thewind.bytedance;
 
 import org.junit.Test;
-import xyz.thewind.common.TreeNode;
+import thewind.common.TreeNode;
+
 
 import java.util.*;
 

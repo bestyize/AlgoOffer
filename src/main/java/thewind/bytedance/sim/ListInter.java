@@ -1,6 +1,7 @@
 package thewind.bytedance.sim;
 
-import xyz.thewind.common.ListNode;
+
+import thewind.common.ListNode;
 
 /**
  * 判断两个无环单链表是否相交。
@@ -12,7 +13,7 @@ public class ListInter {
      * @param l2
      * @return
      */
-    public boolean listInter(ListNode l1,ListNode l2){
+    public boolean listInter(ListNode l1, ListNode l2){
         if(l1==null&&l2==null||l1==null&&l2!=null||l1!=null&&l2==null){
             return false;
         }

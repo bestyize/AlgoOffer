@@ -1,7 +1,8 @@
 package thewind.bytedance.sim;
 
 import org.junit.Test;
-import xyz.thewind.common.ListNode;
+import thewind.common.ListNode;
+
 
 public class ReverseListNode {
 

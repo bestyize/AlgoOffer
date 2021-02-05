@@ -1,6 +1,6 @@
 package thewind.leetcode.p2;
 
-import xyz.thewind.common.ListNode;
+import thewind.common.ListNode;
 
 /**
  * 83. 删除排序链表中的重复元素

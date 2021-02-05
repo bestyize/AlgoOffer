@@ -1,6 +1,7 @@
 package thewind.bytedance;
 
-import xyz.thewind.common.ListNode;
+
+import thewind.common.ListNode;
 
 public class T3ReverseNodeEveryK {
     public ListNode reverseKGroup(ListNode head, int k) {

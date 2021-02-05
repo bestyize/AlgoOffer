@@ -1,6 +1,5 @@
 package thewind.bytedance;
-
-import xyz.thewind.common.TreeNode;
+import thewind.common.TreeNode;
 
 import java.util.Arrays;
 import java.util.LinkedList;
