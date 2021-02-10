@@ -4,10 +4,10 @@ package thewind.bytedance;
 import thewind.common.TreeNode;
 
 public class T29IsBalanceTree {
-    private boolean isBalance=false;
+    private boolean isBalance=true;
     public boolean isBalanceTree(TreeNode root){
         if(root==null){
-            return true;
+            return isBalance;
         }
         getDepth(root);
         return isBalance;
